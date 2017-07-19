@@ -1,19 +1,73 @@
 
 	body {
-		background-image: url("../images/dark-triangles.png");
-		color:white;
+		background-image: url("../images/redox_01.png");
+		color: #777777;
 	}
 	
 	
-	h1 {
-		font-family: "Arial";
+	nav {
+		height: 80px;
+		font-family: 'Georgia';
+		background-color: #ffffff;
+		border-color: #cccccc;
+	}
+
+	#namebutton {
+		
 		text-align: center;
+		font-family: 'Georgia';
 		color: white;
-		text-decoration: underline;
-		background-color: red;
+		font-size: 24px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		text-decoration: none;
+
+		background-color: #4aaaa5;
+		padding: 20px 25px;
+	    display: inline-block;
+	    
+	}
+
+	.sheet {
+		float: left;
+		background-color: white;
+		border-style: solid;
+		border-color: lightgrey;
+	}
 	
+	.text {
+		width: 90%;
+		margin: auto;
+	}
+
+	h1 {
+		font-family: Times;
+		text-align: left;
+		color: #4aaaa5;
+		border-bottom-style: solid;	
+		border-bottom-color: lightgrey;
 	}
 
 	h2 {
 		font-family: 'Georgia';
+		text-align: left;
+		color: #4aaaa5;
+	}
+	
+
+	aside {
+		
+	}
+
+	footer {
+		font-size: 12px;
+		font-family: sans-serif;
+		color: #ffffff;
+		text-align: center;
+		background-color: #666666;
+		padding: 20px;
+		border-top-style: solid;
+		border-top-width: 8px;
+		border-color: #4aaaa5;;
+
 	}
