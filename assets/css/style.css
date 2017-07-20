@@ -2,14 +2,19 @@
 	body {
 		background-image: url("../images/redox_01.png");
 		color: #777777;
+		font-family: 'Arial';
 	}
 	
 	
-	nav {
-		height: 80px;
-		font-family: 'Georgia';
+	header {
 		background-color: #ffffff;
 		border-color: #cccccc;
+		border-bottom-style: solid;
+		border-bottom-width: 2px;
+	}
+
+	#headerID {
+		margin: 0px 300px 0px 100px;
 	}
 
 	#namebutton {
@@ -21,6 +26,7 @@
 		font-weight: bold;
 		letter-spacing: 1px;
 		text-decoration: none;
+		margin: auto;
 
 		background-color: #4aaaa5;
 		padding: 20px 25px;
@@ -28,38 +34,93 @@
 	    
 	}
 
+	#menubutton {
+		
+		float: right;
+		color: #777777;
+		text-align: center;
+		font-family: 'Arial';
+		text-decoration: none;
+
+		padding: 20px 25px;
+	    display: inline-block;
+
+	    border-style: solid;
+	    border-right-color: #4aaaa5;
+	    border-right-width: 1px;
+	    margin: auto;
+	}
+
 	.sheet {
-		float: left;
+		/*Color info*/
 		background-color: white;
 		border-style: solid;
 		border-color: lightgrey;
+		border-width: 1px;
+		
+		width: 500px;
+
+		/*Positioning info*/
+		float: left;
+		margin: 40px 25px 0px 100px;
 	}
 	
 	.text {
 		width: 90%;
 		margin: auto;
+		padding-bottom: 20px;
+		line-height: 32px;
 	}
 
-	h1 {
-		font-family: Times;
+	h1.aboutMe{
+		
+		font-size: 24px;
+		font-family: 'Georgia';
+		font-weight: bold;
 		text-align: left;
 		color: #4aaaa5;
+		padding: 20px 0px;
 		border-bottom-style: solid;	
 		border-bottom-color: lightgrey;
+		border-bottom-width: 1px;
 	}
 
-	h2 {
+	h1.contactMe{
+		
+		font-size: 24px;
 		font-family: 'Georgia';
-		text-align: left;
+		font-weight: bold;
+		text-align: center;
 		color: #4aaaa5;
+		padding: 0px 0px 20px 0px;
+		border-bottom-style: solid;	
+		border-bottom-color: lightgrey;
+		border-bottom-width: 1px;
+		margin-bottom: 20px;
 	}
 	
 
 	aside {
-		
+		/*Color info*/
+		background-color: white;
+		border-style: solid;
+		border-color: lightgrey;
+		border-width: 1px;
+
+		/*Positioning info*/
+		float: left;
+		margin: 40px 100px 0px 25px;
+		padding: 20px;
+
 	}
 
-	footer {
+
+	#pageWrap {
+		min-height: 100%;
+		margin-bottom: -60px;
+	}
+
+	#stickyFooter {
 		font-size: 12px;
 		font-family: sans-serif;
 		color: #ffffff;
