@@ -14,11 +14,12 @@
 	}
 
 	#headerID {
-		margin: 0px 300px 0px 100px;
+		margin: 0px 250px 0px 100px;
 	}
 
 	#namebutton {
 		
+		float: left;
 		text-align: center;
 		font-family: 'Georgia';
 		color: white;
@@ -34,21 +35,37 @@
 	    
 	}
 
-	#menubutton {
+	.verticalLine {
+		border-left-style: solid;
+		border-color: #777777;
+		border-width: 1px;
+		height: 20px;
+		width: 2px;
+	}
+	
+
+	#spacing {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+
+	}
+	.menubutton {
 		
 		float: right;
 		color: #777777;
 		text-align: center;
 		font-family: 'Arial';
 		text-decoration: none;
+		line-height: 24px;
 
 		padding: 20px 25px;
 	    display: inline-block;
 
-	    border-style: solid;
+	    /*border-style: solid;
 	    border-right-color: #4aaaa5;
-	    border-right-width: 1px;
-	    margin: auto;
+	    border-right-width: 1px;*/
+	    /*margin: auto;*/
 	}
 
 	.sheet {
@@ -58,11 +75,11 @@
 		border-color: lightgrey;
 		border-width: 1px;
 		
-		width: 500px;
+		width: 550px;
 
 		/*Positioning info*/
-		float: left;
-		margin: 40px 25px 0px 100px;
+		/*float: left;*/
+		margin: 40px 25px 100px 0px;
 	}
 	
 	.text {
@@ -83,6 +100,7 @@
 		border-bottom-style: solid;	
 		border-bottom-color: lightgrey;
 		border-bottom-width: 1px;
+		margin-bottom: 20px;
 	}
 
 	h1.contactMe{
@@ -97,8 +115,14 @@
 		border-bottom-color: lightgrey;
 		border-bottom-width: 1px;
 		margin-bottom: 20px;
+		clear: none;
 	}
 	
+	#noCreativity {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		width: 270px;
+	}
 
 	aside {
 		/*Color info*/
@@ -108,32 +132,108 @@
 		border-width: 1px;
 
 		/*Positioning info*/
-		float: left;
-		margin: 40px 100px 0px 25px;
+		/*float: right;*/
+		position: absolute;
+		left: 719px;
+		top: 66px;
+
+		margin: 40px 0px 100px 0px;
+		width: 270px;
 		padding: 20px;
 
+		display: grid;
+		grid-template-rows: 1fr 1fr;
 	}
 
+	.imgLinks {
+		height: 60px;
+		width: 65px;
+		margin: 0px 12px;
+	}
 
 	#pageWrap {
-		min-height: 100%;
-		margin-bottom: -60px;
+		min-height: calc(100vh-60px);
+		margin: 0px 250px 0px 100px;
+		/*clear: both;*/
 	}
 
 	#stickyFooter {
 		/*clear: left;*/
 
-		position: fixed;
+		/*position: fixed;
+		bottom: 0px;*/
+		height: 18px;
+		padding: 20px;
+
 		width: 100%;
-		bottom: 0px;
 		font-size: 12px;
 		font-family: sans-serif;
 		color: #ffffff;
 		text-align: center;
+
 		background-color: #666666;
-		padding: 20px;
 		border-top-style: solid;
 		border-top-width: 8px;
 		border-color: #4aaaa5;;
 
+	}
+
+	#nameBox {
+		font-size: 14px;
+	    width: 100%; /* Full width */
+	    padding: 12px; /* Some padding */  
+	    border: 1px solid #ccc; /* Gray border */
+	    border-radius: 4px; /* Rounded borders */
+	    box-sizing: border-box; /* Make sure that padding and width stays in place */
+	    margin-top: 6px; /* Add a top margin */
+	    margin-bottom: 16px; /* Bottom margin */
+	    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	}
+
+	#emailBox {
+		font-size: 14px;
+	    width: 100%; /* Full width */
+	    padding: 12px; /* Some padding */  
+	    border: 1px solid #ccc; /* Gray border */
+	    border-radius: 4px; /* Rounded borders */
+	    box-sizing: border-box; /* Make sure that padding and width stays in place */
+	    margin-top: 6px; /* Add a top margin */
+	    margin-bottom: 16px; /* Bottom margin */
+	    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	}
+
+	#messageBox {
+		font-size: 14px;
+		width: 444px;
+		height: 150px;
+		resize: none;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+	}
+	input[type=submit] {
+		font-size: 14px;
+		background-color: #4aaaaf;
+	    color: white;
+	    padding: 12px 20px;
+	    border: none;
+	    border-radius: 4px;
+	    cursor: pointer;
+	}
+
+	input[type=submit]: hover {
+		background-color: #45a049;
+	    
+	}
+
+	#photos {
+		display: grid;
+		grid-template: 1fr 1fr 1fr/ 1fr 1fr;
+
+	}
+
+	.AnnabellePic {
+		width: 200px;
+		height: 150px;
+		border: 1px solid #ccc;
+		margin: 10px 11px;
 	}
