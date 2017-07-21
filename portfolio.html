@@ -3,22 +3,24 @@
 
 <head>
 
+	<!-- Declares CSS reset and style sheets for formatting -->
  	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/style.css">	
+	<!-- Specifies that my website is UTF-8 character set -->
 	<meta charset="UTF-8">
+	<!-- Titles my page in tabs and for search engines -->	
 	<title>Jon's Portfolio</title>
  
-
 </head>
 
 <body>
 	
 	<header>
-
+		<!-- Code for my website's white header, including my name and menu buttons -->
 		<div id="headerID">
 			<a href="index.html" id="namebutton">Jon Christensen</a>
 			<div id="spacing">
-				<a href="index.html" class="menubutton" style=>About</a>
+				<a href="index.html" class="menubutton">About</a>
 				<div class="verticalLine"></div>
 				<a href="Portfolio.html" class="menubutton">Portfolio</a>
 				<div class="verticalLine"></div>
@@ -27,48 +29,57 @@
 		</div>
 
 	</header>		
-	
+
+	<!-- div box for central content of the page -->	
 	<div id="pageWrap">
 
-		<div class="sheet">
+		<!-- div box for the focal section of the page -->
+		<div class="mainPage">
 
-			<div class="text">
+			<!-- div box for the focal content-->
+			<div class="mainText">
 
-				<h1 class="aboutMe">Portfolio</h1>
+				<!-- focal content title -->
+				<h1>Portfolio</h1>
 				
 				<p>My portfolio is currently empty. In the meantime, here are some pictures of my aforementioned dog, Annabelle!</p>
+
+				<p>(Right-click to open in a new tab for higher resolution.)</p>
 				
+				<!-- Section that properly spaces my photos -->
 				<div id="photos">
 					
+					<!-- Links to each of the photos -->
 					<img src="./assets/images/1.jpg" alt="Pic 1" class="AnnabellePic">
 					<img src="./assets/images/2.jpg" alt="Pic 2" class="AnnabellePic">		
 					<img src="./assets/images/3.jpg" alt="Pic 3" class="AnnabellePic">
 					<img src="./assets/images/4.jpg" alt="Pic 4" class="AnnabellePic">
 					<img src="./assets/images/5.jpg" alt="Pic 5" class="AnnabellePic">
-					<img src="./assets/images/6.jpg" alt="Pic 6" class="AnnabellePic">												
-
+					<img src="./assets/images/6.jpg" alt="Pic 6" class="AnnabellePic">										
 				</div>	
-
 			</div>
-		
 		</div>
 
+		<!-- aside section containing links to profile -->
 		<aside>
 
-			<h1 class="contactMe">Connect with Me</h1>
+			<!-- "Connect with Me" section header; centered -->
+			<h1 style="text-align: center;">Connect with Me</h1>
 
-			<div id="noCreativity">
-
-				<a href="https://linkedin.com/in/jonlchristensen/" target="_blank" class="imgLinks"><img src="./assets/images/if_social_media_logo_linkedin_1078324.svg" alt="LinkedIn profile" height="60" weight="80"></a>
-				<a href="https://github.com/jonchr" target="_blank" class="imgLinks"><img src="./assets/images/if_github_social_media_online_1006758.svg" alt="Github profile" height="60" width="60"></a>
-				<a href="link" target="_blank" class="imgLinks"><img src="./assets/images/if_Deviantart_483488.svg" alt="Link to Portfolio" height="60" width="60"></a>
+			<!-- Div box to evenly space icons on second row -->
+			<div id="secondRow">
+				<!-- Icon for my LinkedIn page -->
+				<a href="https://linkedin.com/in/jonlchristensen/" target="_blank" class="imgLinks"><img src="./assets/images/if_social_media_logo_linkedin_1078324.svg" alt="LinkedIn profile"></a>
+				<!-- Icon for my GitHub profile -->
+				<a href="https://github.com/jonchr" target="_blank" class="imgLinks"><img src="./assets/images/if_github_social_media_online_1006758.svg" alt="Github profile"></a>
+				<!-- Icon for my StackOverflow -->
+				<a href="https://stackoverflow.com/users/8303324/jon-christensen" target="_blank" class="imgLinks"><img src="./assets/images/if_stack_1287510.svg" alt="Link to StackOverflow"></a>
 			</div>
-
 		</aside>
-		
 	</div>
 
-	<footer id="stickyFooter">
+	<!-- Sticky footer for bottom of page -->
+	<footer>
 		&#x24B8 Copyright 2017 Jon Christensen
 	</footer>
 	
