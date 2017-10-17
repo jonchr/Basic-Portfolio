@@ -33,7 +33,7 @@
 		color: white; /*Sets text color for button*/
 		font-family: 'Georgia'; /*Sets button font*/
 		font-size: 24px; /*Sets text size for button*/
-		font-weight: bold; /*Sets text bold for button*/
+		font-weight: bolder; /*Sets text bold for button*/
 		letter-spacing: 1px; /*Increases kerning slightly*/
 		text-decoration: none; /*Removes default text decoration*/
 		text-align: center; /*Centers name within button*/
