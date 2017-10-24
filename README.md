@@ -1,5 +1,5 @@
 # Basic-Portfolio
-This is an extremely basic personal website built solely using HTML5 and CSS3. A live version can be viewed at https://jonchr.github.io/Basic-Portfolio
+This is an extremely basic personal website built solely using HTML5 and CSS3.
 
 ## Description
 
